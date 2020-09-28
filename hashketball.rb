@@ -177,16 +177,14 @@ def player_numbers(some_team_name)
   end 
   
 def player_stats(some_player)
-  game_hash.each do |team_side, team_info|
-      if team_info[:team_name] == some_team_name 
-        team_info[:players].each do |player|
-        new_array << player[:number]
-        end 
+game_hash.each do |team_side, team_info|
+    team_info[:players].each do |player|
+      if player[:player_name] == some_player 
+        return player
       end 
     end
-    new_array 
   end 
-  
+end 
 
     
 
