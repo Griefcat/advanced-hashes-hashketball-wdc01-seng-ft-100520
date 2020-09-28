@@ -187,7 +187,10 @@ game_hash.each do |team_side, team_info|
 end 
 
 def big_shoe_rebounds
+  largest_shoe_size = 0 
+  number_of_rebounds = 0
   game_hash.each do |team_side, team_info|
+    binding.pry
     team_info[:players].each do |player|
        if player[:shoe] >
        return player[:rebounds]
