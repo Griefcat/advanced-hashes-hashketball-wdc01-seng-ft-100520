@@ -188,8 +188,8 @@ end
 
 def big_shoe_rebounds
   game_hash.each do |team_side, team_info|
-    binding.pry
     team_info[:players].each do |player|
+      binding.pry 
     if player[:shoe_size] = shoe
       puts player[:rebounds]
     end 
