@@ -195,8 +195,9 @@ def big_shoe_rebounds
       end 
       
     end 
-    player += 1 
+    
   end 
+  player += 1 
 end 
 
 
