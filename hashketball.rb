@@ -191,7 +191,7 @@ def big_shoe_rebounds
     team_info[:players].each do |player|
        if player[:shoe].max?
        puts player[:rebounds]
-      
+      end 
     end 
   end 
 end 
