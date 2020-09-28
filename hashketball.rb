@@ -190,7 +190,7 @@ def big_shoe_rebounds
   game_hash.each do |team_side, team_info|
     team_info[:players].each do |player|
        if player[:shoe] == 19
-       p player[:rebounds]
+       return player[:rebounds]
       end 
     end 
   end 
