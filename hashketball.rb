@@ -186,6 +186,10 @@ game_hash.each do |team_side, team_info|
   end 
 end 
 
+def big_shoe_rebounds
+  game_hash.each do |team_side, team_info|
+    if shoe_size > previous shoe size 
+      puts number_of_rebounds 
     
 
 
